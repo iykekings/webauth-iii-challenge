@@ -1,9 +1,9 @@
 // Update with your config settings.
 
 module.exports = {
-
   development: {
     client: 'sqlite3',
+    useNullAsDefault: true,
     connection: {
       filename: './data/user-management.db3'
     },
@@ -13,6 +13,5 @@ module.exports = {
     seeds: {
       directory: './data/seeds'
     }
-  },
-
+  }
 };
