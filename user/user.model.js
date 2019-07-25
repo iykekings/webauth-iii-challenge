@@ -10,7 +10,10 @@ const get = filter =>
         .where(filter)
         .first();
 
-const add = user => db('users').insert(user);
+const add = user =>
+  db('users')
+    .insert(user)
+    .then(([id]) => get({ id }));
 
 module.exports = {
   get,
