@@ -1,0 +1,35 @@
+{
+  "name": "webauth-iii-challenge",
+  "version": "1.0.0",
+  "description": "Web API with Authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iykekings/webauth-iii-challenge.git"
+  },
+  "keywords": [
+    "Api",
+    "express",
+    "jwt",
+    "authentication"
+  ],
+  "author": "Ikechukwu Eze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iykekings/webauth-iii-challenge/issues"
+  },
+  "homepage": "https://github.com/iykekings/webauth-iii-challenge#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.19.1",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
+}
